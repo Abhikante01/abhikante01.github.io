@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+* {
+  font-family: "ZCOOL KuaiLe", cursive;
+}
+body {
+  background-image: url(iamges/wallpaper.jpg);
+  height: 1000px;
+  width: auto;
+  padding: 0;
+  margin-right: 100%;
+  overflow: hidden;
+}
+.container > header > h1 {
+  position: relative;
+  color: darkorchid;
+  text-shadow: 5px 5px 10px black;
+  font-size: 55px;
+  left: 50px;
+}
+.container > header > h1:hover {
+  position: relative;
+  color: darkorchid;
+  text-shadow: 5px 5px 10px black;
+  font-size: 70px;
+  left: 50px;
+  transition: width 0.75s;
+  transition-delay: 0.2s;
+  transform: rotateZ(5deg);
+}
+
+.container > footer {
+  color: darkorchid;
+  position: absolute;
+  bottom: 0;
+  left: 250px;
+  width: 100%;
+  display: inline-flex;
+  text-shadow: 5px 5px 10px black;
+  align-items: center;
+}
+
+.container footer a,
+p {
+  color: darkorchid;
+  text-decoration: none;
+  text-shadow: 5px 5px 10px black;
+  padding: 20px;
+}
+
+.container nav ul li a {
+  color: darkorchid;
+  text-shadow: 5px 5px 10px black;
+  text-decoration: none;
+
+ 
+}
+
+.container nav ul li a:hover {
+  color: violet;
+  text-decoration: none;
+  text-shadow: 6px 6px 10px black;
+ 
+ 
+}
+.container nav ul li {
+  list-style-type: none;
+  text-shadow: 5px 5px 10px black;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  font-size: 25px;
+
+  font-weight: bolder;
+}
+
+.container nav ul li:hover {
+  list-style-type: none;
+  text-shadow: 5px 5px 10px black;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  font-size: 35px;
+  width:20px;
+  transition: width 0.75s;
+  transition-delay: 0.25s;
+  font-weight: bolder;
+}
+
+.container nav ul {
+  display: flex;
+  left: 125px;
+  justify-content: space-evenly;
+  width: 100%;
+  position: absolute;
+  top: 0;
+ 
+}
+
+.container #content p {
+  position: relative;
+  width: 500px;
+  text-align: left;
+  padding: 40px;
+  border: 2px solid darkorchid;
+  border-radius: 20px;
+  left: 100px;
+  top: 50px;
+  font-size: 20px;
+ 
+}
+
+
+.container #btn {
+  position: relative;
+  background: darkorchid;
+ 
+
+  padding: 20px;
+  border: 2px solid darkorchid;
+  border-radius: 20px;
+  left: 750px;
+  top: -350px;
+  width: 150px;
+  height: 80px;
+  font-size: 15px;
+
+  transition: width 0.1s;
+  transition-delay: 0.1s;
+  text-shadow: 5px 5px 10px black;
+}
+
+.container #btn:hover {
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transform: rotate(-10deg) translate(10px, -30px);;
+  
+ 
+}
+.container #btn a{
+  color: violet;
+  text-decoration: none;
+}
